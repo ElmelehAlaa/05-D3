@@ -37,36 +37,34 @@ height: 30px;}
     background-color:rgb(255, 223, 127) ;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
 aside{display: flex;
-flex-direction: row;
 margin-left: 30px;
-
-height: 350px;
-width: 100%;
 text-align: center;
 
 
 }
 main{display: flex;
-flex-direction: row;
+
 
 margin-left: 30px;}
 
 .Honey-sales{background-color:rgb(254, 247, 226);
     border-radius: 20%;
     height: 320px;
-    width: 250px;
+    width: 280px;
     margin: 20px;
     color: brown;
     font-size: 18px;
     
 }
 .Honey-sales img{
-    width: 250px;
+    width: 280px;
     border-top-right-radius: 20%;
     border-top-left-radius: 20%;
     height: 200px;
+    object-fit: cover;
 }
 
 .titles{
@@ -99,7 +97,7 @@ color: brown;}
     border-color: transparent;
 }
 .lorem{
-    font-size: 18px;
+    font-size: 24px;
     color: brown;
     margin-left: 20px;
 }
@@ -107,4 +105,12 @@ color: brown;}
     padding: 30px;
     margin-left: 60px;
    
+}
+.price{margin-left: 30px;}
+.product-card{ font-size: 18px;
+font-weight: bold;}
+
+@media screen and(min-width:500px) {
+    h1{background-color: red;}
+    
 }
